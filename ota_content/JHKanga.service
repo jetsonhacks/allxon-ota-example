@@ -1,0 +1,15 @@
+[Unit]
+Description=Kangaboxer Startup Script
+# Ensure the service starts after the graphical session is fully loaded
+After=graphical-session.target
+
+[Service]
+# Command to execute the Python script
+ExecStart=/usr/bin/python3 /usr/local/bin/startup_display_kanga.py
+# Always restart the service if it fails
+Restart=on-failure
+
+[Install]
+# Ensure the service is started when the default target is reached
+WantedBy=default.target
+
