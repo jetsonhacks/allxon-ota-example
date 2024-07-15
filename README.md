@@ -19,6 +19,8 @@ for user in $(cut -d: -f1 /etc/passwd); do sudo usermod -aG jtop $user; done
 ```
 You can also make sure that new users are added to the group automatically by modifying the file /etc/default/useradd
 
+The other example is a Python script which displays a window with an image on startup of a graphical desktop for a user. This is a simple example, and assumes that the system is running with a GUI. The Python script startup_display_kanga.py has a sleep command, which tells the script to wait a little while when the user logs into the system. The amount of time may need to be adjusted, depending on the system.
+
 # Release
 
 ### Initial Release July, 2024
