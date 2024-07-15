@@ -1,5 +1,4 @@
 # allxon-ota-example
-# WORK IN PROGRESS
 Example files for an over the air (OTA) update using the Allxon service for NVIDIA Jetson. Example for JetsonHacks video on YouTube.
 
 There are deliberate placed issues for the scripts presented here. These are addressed when going through the educational video.
