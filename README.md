@@ -5,7 +5,7 @@ There are deliberate placed issues for the scripts presented here. These are add
 
 One issue is that when jetson-stats is installed, it is setup for all users on the device. However, a particular user must register to be in the 'jtop' group to be able to use the jtop service.
 
-If the Jetson is logged into a user, and you only have one user, then consider adding the following to ota_deplay.sh :
+If the Jetson is logged into a user, and you only have one user, then consider adding the following to ota_deploy.sh :
 
 ```
 active_user=$(who | awk 'NR==1{print $1}')
