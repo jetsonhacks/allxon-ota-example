@@ -1,5 +1,5 @@
 # allxon-ota-example
-Example files for an over the air (OTA) update using the Allxon service for NVIDIA Jetson. Example for JetsonHacks video on YouTube.
+Example files for an over the air (OTA) update using the Allxon service for NVIDIA Jetson. Example for JetsonHacks video on YouTube. Here's the article: https://wp.me/p7ZgI9-3Qr
 
 There are deliberate placed issues for the scripts presented here. These are addressed when going through the educational video.
 
